@@ -1,0 +1,81 @@
+2020-04-05 23:26:58,268 :DEBUG : test_gmail :hello
+2020-04-05 23:26:58,452 :INFO : test_gmail :length of the .. 0
+2020-04-05 23:27:03,216 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 23:27:03,216 :INFO : test_gmail :entered the loop
+2020-04-05 23:27:03,407 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 23:27:03,408 :INFO : test_gmail :value has matched...
+2020-04-05 23:27:06,470 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 23:27:07,009 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 23:27:17,032 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:27:30,678 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:27:30,686 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S1376772348%3A1586109425432846&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-05 23:35:59,040 :DEBUG : test_gmail :hello
+2020-04-05 23:35:59,257 :INFO : test_gmail :length of the .. 0
+2020-04-05 23:36:04,639 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 23:36:04,640 :INFO : test_gmail :entered the loop
+2020-04-05 23:36:04,668 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 23:36:04,668 :INFO : test_gmail :value has matched...
+2020-04-05 23:36:07,722 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 23:36:08,100 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 23:36:18,167 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:36:32,156 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:36:32,169 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-788358472%3A1586109966378440&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-05 23:36:32,321 :INFO : test_gmail :Final Text value::
+2020-04-05 23:36:32,401 :INFO : test_smoke1 :smoke testing1
+2020-04-05 23:36:32,405 :INFO : test_smoke1 :regression testing1
+2020-04-05 23:36:32,409 :INFO : test_smoke1 :smoke testing2
+2020-04-05 23:36:32,413 :INFO : test_smoke1 :regression testing2
+2020-04-05 23:36:32,417 :INFO : test_smoke1 :123
+2020-04-05 23:40:25,314 :DEBUG : test_gmail :hello
+2020-04-05 23:40:25,539 :INFO : test_gmail :length of the .. 0
+2020-04-05 23:40:30,292 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 23:40:30,292 :INFO : test_gmail :entered the loop
+2020-04-05 23:40:30,308 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 23:40:30,308 :INFO : test_gmail :value has matched...
+2020-04-05 23:40:33,127 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 23:40:33,583 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 23:40:43,599 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:40:57,272 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:40:57,280 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-1643686544%3A1586110231998008&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-05 23:41:03,400 :INFO : test_gmail :Final Text value::
+2020-04-05 23:41:03,476 :INFO : test_smoke1 :smoke testing1
+2020-04-05 23:41:03,480 :INFO : test_smoke1 :regression testing1
+2020-04-05 23:41:03,484 :INFO : test_smoke1 :smoke testing2
+2020-04-05 23:41:03,484 :INFO : test_smoke1 :regression testing2
+2020-04-05 23:41:03,488 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'Alexder']
+2020-04-06 00:00:19,279 :DEBUG : test_gmail :hello
+2020-04-06 00:00:19,447 :INFO : test_gmail :length of the .. 0
+2020-04-06 00:00:24,301 :INFO : test_gmail :total elements s of the .. 13
+2020-04-06 00:00:24,302 :INFO : test_gmail :entered the loop
+2020-04-06 00:00:24,320 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-06 00:00:24,320 :INFO : test_gmail :value has matched...
+2020-04-06 00:00:27,550 :INFO : test_gmail :formyself elementFor myself
+2020-04-06 00:00:27,918 :INFO : test_gmail :Sign in – Google accounts
+2020-04-06 00:00:37,948 :INFO : test_gmail :Create your Google Account
+2020-04-06 00:00:51,818 :INFO : test_gmail :Create your Google Account
+2020-04-06 00:00:51,837 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S302957087%3A1586111426008130&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-06 00:00:51,936 :INFO : test_gmail :Final Text value::Verifying your phone number
+2020-04-06 00:00:58,153 :INFO : test_gmail :Final Text value::
+2020-04-06 00:00:58,278 :INFO : test_smoke1 :smoke testing1
+2020-04-06 00:00:58,283 :INFO : test_smoke1 :regression testing1
+2020-04-06 00:00:58,287 :INFO : test_smoke1 :smoke testing2
+2020-04-06 00:00:58,293 :INFO : test_smoke1 :regression testing2
+2020-04-06 00:00:58,304 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'Alexder']
+2020-04-06 00:02:06,786 :DEBUG : test_gmail :hello
+2020-04-06 00:02:06,957 :INFO : test_gmail :length of the .. 0
+2020-04-06 00:02:12,023 :INFO : test_gmail :total elements s of the .. 13
+2020-04-06 00:02:12,023 :INFO : test_gmail :entered the loop
+2020-04-06 00:02:12,092 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-06 00:02:12,092 :INFO : test_gmail :value has matched...
+2020-04-06 00:02:15,196 :INFO : test_gmail :formyself elementFor myself
+2020-04-06 00:02:15,623 :INFO : test_gmail :Sign in – Google accounts
+2020-04-06 00:02:25,655 :INFO : test_gmail :Create your Google Account
+2020-04-06 00:02:39,827 :INFO : test_gmail :Create your Google Account
+2020-04-06 00:02:39,851 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-351691438%3A1586111533869541&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-06 00:02:39,911 :INFO : test_gmail :Final Text value::Verifying your phone number
+2020-04-06 00:02:46,166 :INFO : test_gmail :Final Text value::
+2020-04-06 00:02:46,269 :INFO : test_smoke1 :smoke testing1
+2020-04-06 00:02:46,277 :INFO : test_smoke1 :regression testing1
+2020-04-06 00:02:46,285 :INFO : test_smoke1 :smoke testing2
+2020-04-06 00:02:46,296 :INFO : test_smoke1 :regression testing2
+2020-04-06 00:02:46,308 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'Alexder']

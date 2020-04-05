@@ -1,0 +1,100 @@
+2020-04-05 22:16:20,335 :DEBUG : test_gmail :hello
+2020-04-05 22:16:21,173 :INFO : test_gmail :length of the .. 10
+2020-04-05 22:16:21,173 :INFO : test_gmail :0
+2020-04-05 22:16:21,174 :INFO : test_gmail :1
+2020-04-05 22:16:21,174 :INFO : test_gmail :2
+2020-04-05 22:16:21,175 :INFO : test_gmail :3
+2020-04-05 22:16:21,175 :INFO : test_gmail :4
+2020-04-05 22:16:21,175 :INFO : test_gmail :5
+2020-04-05 22:16:21,176 :INFO : test_gmail :6
+2020-04-05 22:16:21,176 :INFO : test_gmail :7
+2020-04-05 22:16:21,176 :INFO : test_gmail :8
+2020-04-05 22:16:21,177 :INFO : test_gmail :9
+2020-04-05 22:16:26,104 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:16:26,104 :INFO : test_gmail :entered the loop
+2020-04-05 22:16:26,701 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:16:26,702 :INFO : test_gmail :value has matched...
+2020-04-05 22:16:31,637 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:16:32,272 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:16:42,322 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:18:02,014 :DEBUG : test_gmail :hello
+2020-04-05 22:18:02,249 :INFO : test_gmail :length of the .. 0
+2020-04-05 22:18:07,896 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:18:07,897 :INFO : test_gmail :entered the loop
+2020-04-05 22:18:07,931 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:18:07,931 :INFO : test_gmail :value has matched...
+2020-04-05 22:18:11,285 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:18:11,766 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:18:21,797 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:21:34,313 :DEBUG : test_gmail :hello
+2020-04-05 22:21:35,041 :INFO : test_gmail :length of the .. 10
+2020-04-05 22:21:35,042 :INFO : test_gmail :0
+2020-04-05 22:21:35,042 :INFO : test_gmail :1
+2020-04-05 22:21:35,042 :INFO : test_gmail :2
+2020-04-05 22:21:35,042 :INFO : test_gmail :3
+2020-04-05 22:21:35,042 :INFO : test_gmail :4
+2020-04-05 22:21:35,043 :INFO : test_gmail :5
+2020-04-05 22:21:35,043 :INFO : test_gmail :6
+2020-04-05 22:21:35,043 :INFO : test_gmail :7
+2020-04-05 22:21:35,043 :INFO : test_gmail :8
+2020-04-05 22:21:35,043 :INFO : test_gmail :9
+2020-04-05 22:21:40,757 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:21:40,758 :INFO : test_gmail :entered the loop
+2020-04-05 22:21:40,812 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:21:40,812 :INFO : test_gmail :value has matched...
+2020-04-05 22:21:44,579 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:21:45,111 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:21:55,198 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:21:58,945 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:24:02,508 :DEBUG : test_gmail :hello
+2020-04-05 22:24:02,756 :INFO : test_gmail :length of the .. 0
+2020-04-05 22:24:07,735 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:24:07,735 :INFO : test_gmail :entered the loop
+2020-04-05 22:24:07,754 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:24:07,754 :INFO : test_gmail :value has matched...
+2020-04-05 22:24:10,608 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:24:11,107 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:24:21,154 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:29:54,857 :DEBUG : test_gmail :hello
+2020-04-05 22:29:55,097 :INFO : test_gmail :length of the .. 0
+2020-04-05 22:30:00,065 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:30:00,065 :INFO : test_gmail :entered the loop
+2020-04-05 22:30:00,085 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:30:00,085 :INFO : test_gmail :value has matched...
+2020-04-05 22:30:03,169 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:30:03,751 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:30:13,825 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:30:17,746 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:32:17,539 :DEBUG : test_gmail :hello
+2020-04-05 22:32:17,807 :INFO : test_gmail :length of the .. 0
+2020-04-05 22:32:22,603 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 22:32:22,603 :INFO : test_gmail :entered the loop
+2020-04-05 22:32:22,851 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 22:32:22,851 :INFO : test_gmail :value has matched...
+2020-04-05 22:32:25,923 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 22:32:26,378 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 22:32:36,457 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:32:40,158 :INFO : test_gmail :Create your Google Account
+2020-04-05 22:32:40,170 :INFO : test_gmail :https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-503290309%3A1586106144318408&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-05 23:15:26,904 :DEBUG : test_gmail :hello
+2020-04-05 23:15:27,229 :INFO : test_gmail :length of the .. 0
+2020-04-05 23:15:32,373 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 23:15:32,373 :INFO : test_gmail :entered the loop
+2020-04-05 23:15:32,401 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 23:15:32,401 :INFO : test_gmail :value has matched...
+2020-04-05 23:15:35,092 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 23:15:35,487 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 23:15:45,516 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:15:59,300 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:15:59,308 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-922068228%3A1586108734113087&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-05 23:19:14,119 :DEBUG : test_gmail :hello
+2020-04-05 23:19:14,441 :INFO : test_gmail :length of the .. 0
+2020-04-05 23:19:19,603 :INFO : test_gmail :total elements s of the .. 13
+2020-04-05 23:19:19,603 :INFO : test_gmail :entered the loop
+2020-04-05 23:19:19,638 :INFO : test_gmail :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-05 23:19:19,638 :INFO : test_gmail :value has matched...
+2020-04-05 23:19:23,629 :INFO : test_gmail :formyself elementFor myself
+2020-04-05 23:19:24,169 :INFO : test_gmail :Sign in – Google accounts
+2020-04-05 23:19:34,200 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:19:48,551 :INFO : test_gmail :Create your Google Account
+2020-04-05 23:19:48,559 :INFO : test_gmail :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-1677073459%3A1586108961397529&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp

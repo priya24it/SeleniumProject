@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="USHYDKBHARATH01" name="pytest" skipped="0" tests="5" time="29.627" timestamp="2020-04-04T22:54:01.243356"><testcase classname="test_gmail.TestGmail" file="test_gmail.py" line="13" name="test_gmail" time="29.287"><failure message="selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class =&apos;sfYUmb&apos;]&quot;}
+  (Session info: chrome=80.0.3987.149)">self = &lt;Tests.test_gmail.TestGmail object at 0x0657FCE8&gt;
+
+    def test_gmail(self):
+        log = self.getLogger()
+        log.debug(&apos;hello&apos;)
+        self.driver.find_element_by_css_selector(&quot;input[name=&apos;q&apos;]&quot;).send_keys(&quot;Gmail Signin&quot;)
+        #searchkeyword = self.driver.find_elements_by_xpath(&quot;//div[@id=&apos;realbox-matches&apos;]//a&quot;)
+        searchkeyword = self.driver.find_elements_by_xpath(&quot;//ul[@class =&apos;erkvQe&apos;]//li&quot;)
+        log.info(&quot;length of the .. &quot;+str(len(searchkeyword)))
+        for i in range(0,len(searchkeyword)):
+            log.info(i)
+        time.sleep(3)
+        #self.driver.find_element_by_xpath(&quot;//div[@class=&apos;FPdoLc tfB0Bf&apos;]//input[@name=&apos;btnK&apos;]&quot;).click()
+        self.driver.find_element_by_xpath(&quot;//div[@class =&apos;tfB0Bf&apos;]//input[@name=&apos;btnK&apos;]&quot;).click()
+       # self.driver.find_element_by_css_selector(&quot;//h3[contains(text(),&apos;Google Login - Sign in - Google Accounts&apos;)]&quot;).Click()
+        list = self.driver.find_elements_by_xpath(&quot;//div[@id=&apos;search&apos;]//div[@class=&apos;g&apos;]//div[@class=&apos;r&apos;]//h3&quot;)
+        #print(list.text)
+        log.info(&quot;total elements s of the .. &quot; + str(len(list)))
+        for i in list:
+            log.info(&quot;entered the loop&quot;)
+            loopvalue = i.text
+            log.info(&quot;the first value is ::&quot;+loopvalue)
+            if loopvalue in  &quot;Google Login - Sign in - Google Accounts&quot;:
+                log.info(&quot;value has matched...&quot;)
+                i.click()
+                break
+    
+                #i.find_elements_by_xpath(&quot;//h3&quot;).click()
+                #break
+            WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(By.CSS_SELECTOR,&quot;span[class=&apos;NlWrkb snByac&apos;]&quot;))
+            #wait = WebDriverWait(self.driver,10)
+            #wait.until(EC.presence_of_element_located(By.CSS_SELECTOR,&quot;span[class=&apos;NlWrkb snByac&apos;]&quot;))
+        self.driver.find_element_by_css_selector(&quot;span[class=&apos;NlWrkb snByac&apos;]&quot;).click()
+        formyself = self.driver.find_element_by_xpath(&quot;//div[@class=&apos;XvhY1d&apos;]//div/span[1]&quot;)
+        log.info(&quot;formyself element&quot;+formyself.text)
+        formyself.click()
+        log.info(self.driver.title)
+    
+    
+        window_after = self.driver.window_handles[0]
+        self.driver.switch_to.window(window_after)
+        time.sleep(10)
+    
+        window_after_title = self.driver.title
+        log.info(window_after_title)
+    
+        #firstName = self.driver.find_element_by_xpath(&quot;//input[@id=&apos;firstName&apos;]&quot;).click()
+        #self.driver.find_element_by_xpath(&quot;//input[@id=&apos;firstName&apos;]&quot;).send_keys(&quot;h17845&quot;)
+        self.driver.find_element_by_xpath(&quot;//input[@id=&apos;firstName&apos;]&quot;).send_keys(&quot;h45678&quot;)
+        self.driver.find_element_by_xpath(&quot;//input[@id=&apos;lastName&apos;]&quot;).send_keys(&quot;h456278&quot;)
+        self.driver.find_element_by_xpath(&quot;//input[@id=&apos;username&apos;]&quot;).send_keys(&quot;h1673#45abc&quot;)
+        self.driver.find_element_by_xpath(&quot;//input[@name=&apos;Passwd&apos;]&quot;).send_keys(&quot;h31232345&quot;)
+        self.driver.find_element_by_xpath(&quot;//input[@name=&apos;ConfirmPasswd&apos;]&quot;).send_keys(&quot;h31232345&quot;)
+        self.driver.find_element_by_xpath(&quot;//span[@class=&apos;CwaK9&apos;]&quot;).click()
+    
+    
+    
+&gt;       FinalTextvalue = self.driver.find_element_by_xpath(&quot;//h1[@class =&apos;sfYUmb&apos;]&quot;).text
+
+test_gmail.py:69: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:394: in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+..\..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:976: in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+..\..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:321: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x065499E8&gt;
+response = {&apos;status&apos;: 404, &apos;value&apos;: &apos;{&quot;value&quot;:{&quot;error&quot;:&quot;no such element&quot;,&quot;message&quot;:&quot;no such element: Unable to locate element: {\...\n\\tRtlGetAppContainerNamedObjectPath [0x77245E17+311]\\n\\tRtlGetAppContainerNamedObjectPath [0x77245DE7+263]\\n&quot;}}&apos;}
+
+    def check_response(self, response):
+        &quot;&quot;&quot;
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        &quot;&quot;&quot;
+        status = response.get(&apos;status&apos;, None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get(&quot;message&quot;, &quot;&quot;)
+        screen = response.get(&quot;screen&quot;, &quot;&quot;)
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get(&apos;value&apos;, None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value[&apos;value&apos;]
+                    status = value.get(&apos;error&apos;, None)
+                    if status is None:
+                        status = value[&quot;status&quot;]
+                        message = value[&quot;value&quot;]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get(&apos;message&apos;)
+                    else:
+                        message = value.get(&apos;message&apos;, None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == &apos;&apos; or value is None:
+            value = response[&apos;value&apos;]
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == &quot;&quot; and &apos;message&apos; in value:
+            message = value[&apos;message&apos;]
+    
+        screen = None
+        if &apos;screen&apos; in value:
+            screen = value[&apos;screen&apos;]
+    
+        stacktrace = None
+        if &apos;stackTrace&apos; in value and value[&apos;stackTrace&apos;]:
+            stacktrace = []
+            try:
+                for frame in value[&apos;stackTrace&apos;]:
+                    line = self._value_or_default(frame, &apos;lineNumber&apos;, &apos;&apos;)
+                    file = self._value_or_default(frame, &apos;fileName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if line:
+                        file = &quot;%s:%s&quot; % (file, line)
+                    meth = self._value_or_default(frame, &apos;methodName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if &apos;className&apos; in frame:
+                        meth = &quot;%s.%s&quot; % (frame[&apos;className&apos;], meth)
+                    msg = &quot;    at %s (%s)&quot;
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if &apos;data&apos; in value:
+                alert_text = value[&apos;data&apos;].get(&apos;text&apos;)
+            elif &apos;alert&apos; in value:
+                alert_text = value[&apos;alert&apos;].get(&apos;text&apos;)
+            raise exception_class(message, screen, stacktrace, alert_text)
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class =&apos;sfYUmb&apos;]&quot;}
+E         (Session info: chrome=80.0.3987.149)
+
+..\..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py:242: NoSuchElementException</failure></testcase><testcase classname="test_pratice.Test2" file="test_pratice.py" line="4" name="test_smoke1" time="0.000"></testcase><testcase classname="test_pratice.Test2" file="test_pratice.py" line="8" name="test_regression1" time="0.000"></testcase><testcase classname="test_pratice.Test2" file="test_pratice.py" line="12" name="test_smoke2" time="0.002"></testcase><testcase classname="test_pratice.Test2" file="test_pratice.py" line="16" name="test_regression2" time="0.002"></testcase></testsuite></testsuites>
