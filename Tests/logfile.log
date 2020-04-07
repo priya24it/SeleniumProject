@@ -1,0 +1,125 @@
+2020-04-07 17:46:19,222 :INFO : ClickonSigninLink :total elements s of the .. 12
+2020-04-07 17:46:19,222 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 17:46:19,298 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 17:46:19,299 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 17:46:27,026 :INFO : Clickoncreateaccountlink :https://accounts.google.com/servicelogin
+2020-04-07 17:48:14,582 :INFO : ClickonSigninLink :total elements s of the .. 12
+2020-04-07 17:48:14,583 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 17:48:14,603 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 17:48:14,603 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 17:48:18,955 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 17:50:37,608 :INFO : ClickonSigninLink :total elements s of the .. 12
+2020-04-07 17:50:37,608 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 17:50:37,628 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 17:50:37,628 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 17:50:41,775 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 17:50:45,307 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 17:52:39,590 :INFO : ClickonSigninLink :total elements s of the .. 12
+2020-04-07 17:52:39,590 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 17:52:39,610 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 17:52:39,610 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 17:52:44,881 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 17:52:48,133 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 17:58:11,679 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 17:58:11,680 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 17:58:11,715 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 17:58:11,716 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 17:58:15,484 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 17:58:18,734 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:02:12,031 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 18:02:12,032 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:02:12,051 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:02:12,051 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:02:14,765 :INFO : Clickoncreateaccountlink :https://accounts.google.com/servicelogin
+2020-04-07 18:02:17,971 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:03:33,220 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 18:03:33,221 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:03:33,267 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:03:33,267 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:03:36,816 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:03:40,026 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:14:19,061 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 18:14:19,062 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:14:19,089 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:14:19,089 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:14:21,937 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:14:25,287 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:14:25,779 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 18:18:54,891 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 18:18:54,891 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:18:54,925 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:18:54,925 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:18:58,345 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:19:01,664 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:19:02,133 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 18:19:02,230 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 18:19:02,237 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:25:43,520 :INFO : ClickonSigninLink :total elements s of the .. 12
+2020-04-07 18:25:43,520 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:25:43,556 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:25:43,556 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:25:47,554 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:25:50,818 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:25:51,200 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 18:25:51,275 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 18:25:51,281 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:31:37,896 :INFO : ClickonSigninLink :total elements s of the .. 0
+2020-04-07 18:31:38,052 :INFO : Clickoncreateaccountlink :https://www.google.com/
+2020-04-07 18:59:30,919 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 18:59:30,920 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 18:59:30,970 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 18:59:30,970 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 18:59:35,898 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 18:59:39,925 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 18:59:40,486 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 18:59:40,574 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 18:59:40,680 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:09:57,616 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 19:09:57,617 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 19:09:57,653 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 19:09:57,653 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 19:10:03,065 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:10:06,362 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 19:10:06,951 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 19:10:07,100 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 19:10:07,111 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:13:15,910 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 19:13:15,911 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 19:13:15,974 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 19:13:15,974 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 19:13:20,158 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:13:23,574 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 19:13:24,094 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 19:13:24,200 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 19:13:24,212 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:14:30,993 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 19:14:30,994 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 19:14:31,089 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 19:14:31,089 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 19:14:35,811 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:14:39,165 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 19:14:39,580 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 19:14:39,691 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 19:14:39,697 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:17:29,992 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 19:17:29,993 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 19:17:30,077 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 19:17:30,077 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 19:17:35,337 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:17:38,709 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 19:17:39,270 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 19:17:39,404 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 19:17:39,449 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:17:52,866 :INFO : Clickonassertpage :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-1392497135%3A1586267250548957&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-07 19:17:53,074 :INFO : Clickonassertpage :Final Text value::Verifying your phone number
+2020-04-07 19:18:46,244 :INFO : ClickonSigninLink :total elements s of the .. 9
+2020-04-07 19:18:46,245 :INFO : ClickonSigninLink :entered the loop
+2020-04-07 19:18:46,281 :INFO : ClickonSigninLink :the first value is ::Google Login - Sign in - Google Accounts
+2020-04-07 19:18:46,281 :INFO : ClickonSigninLink :value has matched...
+2020-04-07 19:18:50,549 :INFO : Clickoncreateaccountlink :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:18:53,857 :INFO : Clickoncreateaccountlink :formyself elementFor myself
+2020-04-07 19:18:54,331 :INFO : Clickoncreateaccountlink :formyself element has cliked
+2020-04-07 19:18:54,476 :INFO : createaccountwithtestdata :method is createaccountwithtestdata
+2020-04-07 19:18:54,488 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2020-04-07 19:19:05,631 :INFO : Clickonassertpage :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-66739924%3A1586267326637477&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+2020-04-07 19:19:05,911 :INFO : Clickonassertpage :Final Text value::Verifying your phone number

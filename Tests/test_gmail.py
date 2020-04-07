@@ -9,9 +9,10 @@ from UtilityClass.utilityclass import commonclass
 
 
 @pytest.mark.usefixtures("setup")
-class TestGmail(commonclass):
+@pytest.mark.usefixtures("passdictdata")
+class SampleTestGmail(commonclass):
 
-    def test_gmail(self):
+    def test_gmail(self,passdictdata):
         log = self.getLogger()
         log.debug('hello')
         self.driver.find_element_by_css_selector("input[name='q']").send_keys("Gmail Signin")
@@ -57,11 +58,11 @@ class TestGmail(commonclass):
 
         #firstName = self.driver.find_element_by_xpath("//input[@id='firstName']").click()
         #self.driver.find_element_by_xpath("//input[@id='firstName']").send_keys("h17845")
-        self.driver.find_element_by_xpath("//input[@id='firstName']").send_keys("TimeosfInda")
-        self.driver.find_element_by_xpath("//input[@id='lastName']").send_keys("TimeosfInda")
-        self.driver.find_element_by_xpath("//input[@id='username']").send_keys("TimeosfIndal18India")
-        self.driver.find_element_by_xpath("//input[@name='Passwd']").send_keys("DeccanChornical@12345")
-        self.driver.find_element_by_xpath("//input[@name='ConfirmPasswd']").send_keys("DeccanChornical@12345")
+        self.driver.find_element_by_xpath("//input[@id='firstName']").send_keys(passdictdata[0])
+        self.driver.find_element_by_xpath("//input[@id='lastName']").send_keys(passdictdata[1])
+        self.driver.find_element_by_xpath("//input[@id='username']").send_keys(passdictdata[2])
+        self.driver.find_element_by_xpath("//input[@name='Passwd']").send_keys(passdictdata[3])
+        self.driver.find_element_by_xpath("//input[@name='ConfirmPasswd']").send_keys(passdictdata[4])
         self.driver.find_element_by_xpath("//span[@class='CwaK9']").click()
 
         window_after = self.driver.window_handles[0]

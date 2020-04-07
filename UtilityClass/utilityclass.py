@@ -1,6 +1,6 @@
 import logging
 import inspect
-
+import pandas as pd
 
 class commonclass:
 
@@ -16,3 +16,16 @@ class commonclass:
         logger.setLevel(logging.DEBUG)
         return logger
 
+    @staticmethod
+    def getTestdatatocreateaccount():
+        #dataframe = pd.read_excel("Testdata\\testdata.xlsx")
+       # dataframe = pd.DataFrame(dataframe)
+        dict ="priya"
+        dict = str(dict)
+        i = len(dict)
+        dict = dict[1:i - 1]
+        dict = dict.replace("[", "(")
+        dict = dict.replace("]", ")")
+       # dict = "[" + dict + "]"
+        #print(dict)
+        return [dict]

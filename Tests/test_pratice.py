@@ -2,6 +2,7 @@ import pytest
 
 from UtilityClass.utilityclass import commonclass
 
+
 class Test2(commonclass):
 
     @pytest.mark.smoke
@@ -25,3 +26,23 @@ class Test2(commonclass):
     @pytest.mark.usefixtures("passdata")
     def test_fixture(self, passdata):
         log.info(passdata)
+
+    @pytest.mark.usefixtures("passdictdata")
+    def test_fixtureDict(self, passdictdata):
+        log.info("passdictdata")
+
+    @pytest.mark.usefixtures("passdatamultiplevalues")
+    def test_fixtureDictmultiplevalues(self, passdatamultiplevalues):
+        print(passdatamultiplevalues)
+
+    @pytest.mark.usefixtures("passdatafromexcel")
+    def test_passdatafromexcel(self, passdatafromexcel):
+        log.info(passdatafromexcel)
+
+
+    def test_valueinprintstatment(self):
+        testdata = commonclass.getTestdatatocreateaccount()
+
+
+
+
