@@ -2,7 +2,7 @@ import pytest
 
 from UtilityClass.utilityclass import commonclass
 
-
+@pytest.mark.skip
 class Test2(commonclass):
 
     @pytest.mark.smoke

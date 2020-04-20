@@ -123,3 +123,31 @@
 2020-04-07 19:18:54,488 :INFO : createaccountwithtestdata :https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
 2020-04-07 19:19:05,631 :INFO : Clickonassertpage :https://accounts.google.com/signup/v2/webgradsidvphone?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-66739924%3A1586267326637477&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
 2020-04-07 19:19:05,911 :INFO : Clickonassertpage :Final Text value::Verifying your phone number
+2020-04-10 23:22:52,100 :INFO : ClickonSigninLink :total elements s of the .. 0
+2020-04-10 23:22:52,150 :INFO : Clickoncreateaccountlink :https://www.google.com/
+2020-04-10 23:22:55,325 :INFO : test_smoke1 :smoke testing1
+2020-04-10 23:22:55,328 :INFO : test_smoke1 :regression testing1
+2020-04-10 23:22:55,332 :INFO : test_smoke1 :smoke testing2
+2020-04-10 23:22:55,335 :INFO : test_smoke1 :regression testing2
+2020-04-10 23:22:55,345 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'TimeosfIndal18India', 'DeccanChornical@12345', 'DeccanChornical@12345']
+2020-04-10 23:22:55,350 :INFO : test_smoke1 :passdictdata
+2020-04-10 23:22:55,353 :INFO : test_smoke1 :passdictdata
+2020-04-10 23:22:55,357 :INFO : test_smoke1 :passdictdata
+2020-04-10 23:25:32,380 :INFO : ClickonSigninLink :total elements s of the .. 0
+2020-04-10 23:25:32,412 :INFO : Clickoncreateaccountlink :https://www.google.com/
+2020-04-10 23:25:35,501 :INFO : test_smoke1 :smoke testing1
+2020-04-10 23:25:35,508 :INFO : test_smoke1 :regression testing1
+2020-04-10 23:25:35,511 :INFO : test_smoke1 :smoke testing2
+2020-04-10 23:25:35,514 :INFO : test_smoke1 :regression testing2
+2020-04-10 23:25:35,516 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'TimeosfIndal18India', 'DeccanChornical@12345', 'DeccanChornical@12345']
+2020-04-10 23:25:35,520 :INFO : test_smoke1 :passdictdata
+2020-04-10 23:25:35,523 :INFO : test_smoke1 :passdictdata
+2020-04-10 23:25:35,527 :INFO : test_smoke1 :passdictdata
+2020-04-17 11:27:54,894 :INFO : test_smoke1 :smoke testing1
+2020-04-17 11:27:54,897 :INFO : test_smoke1 :regression testing1
+2020-04-17 11:27:54,899 :INFO : test_smoke1 :smoke testing2
+2020-04-17 11:27:54,902 :INFO : test_smoke1 :regression testing2
+2020-04-17 11:27:54,904 :INFO : test_smoke1 :['Priya Bharathi', 'Ashok kumar samala', 'TimeosfIndal18India', 'DeccanChornical@12345', 'DeccanChornical@12345']
+2020-04-17 11:27:54,909 :INFO : test_smoke1 :passdictdata
+2020-04-17 11:27:54,912 :INFO : test_smoke1 :passdictdata
+2020-04-17 11:27:54,914 :INFO : test_smoke1 :passdictdata

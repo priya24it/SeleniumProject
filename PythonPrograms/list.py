@@ -18,6 +18,13 @@ import pandas as pd
 #dict = "[" + dict + "]"
 #print(dict)
 #print(len(dict))
+SampleExcel = pd.read_excel("sample.xlsx")
+df = pd.DataFrame(SampleExcel)
+print(df['Step#'].value_counts())
+df = pd.DataFrame(df['Step#'].value_counts()>1).reset_index().rename(columns={"Step#": "grid", "index": "NoofTimes"})
+print(df)
+df = df[df['NoofTimes']==True]
+print(df)
 
 
 dict1 = {"StdudentName":['Priya','Ashok'],

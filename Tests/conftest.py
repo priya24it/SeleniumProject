@@ -13,11 +13,17 @@ def setup(request):
         driver = webdriver.Chrome(executable_path="C:\\Users\\kbharathi\\Desktop\\MDM\\WebApp\\chromedriver\\chromedriver.exe")
         #driver = webdriver.Chrome(executable_path="",chrome_options="",desired_capabilities="")
         #driver.find_element()
+
     elif "chrome" == "firefox":
         driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
     elif "chrome" == "IE":
         print("IE driver")
-    driver.get("https://www.google.com")
+    #driver.get("https://www.google.com")
+    #driver.get("https://www.google.com")
+    #driver.get("https://www.worldometers.info/geography/flags-of-the-world")
+    #driver.get("https://www.guru99.com/handling-dynamic-selenium-webdriver.html")
+    #driver.get("http://demo.guru99.com/test/web-table-element.php")
+    driver.get("https://www.makemytrip.com/")
     driver.maximize_window()
 
     request.cls.driver = driver

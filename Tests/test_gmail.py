@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from UtilityClass.utilityclass import commonclass
 
 
-
+@pytest.mark.skip
 @pytest.mark.usefixtures("setup")
 @pytest.mark.usefixtures("passdictdata")
 class SampleTestGmail(commonclass):

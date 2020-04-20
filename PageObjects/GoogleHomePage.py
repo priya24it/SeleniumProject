@@ -10,7 +10,7 @@ class HomePage:
         self.driver = driver
 
     SearchKeyword = (By.CSS_SELECTOR, "input[name='q']")
-    SubmitButtonID = (By.XPATH, "//div[@class='tfB0Bf']//input[@name='btnK']")
+    SubmitButtonID = (By.XPATH, "//div[contains(@class='tfB0Bf')]//input[@name='btnK']")
 
     def SendKeys(self):
         self.driver.find_element(*HomePage.SearchKeyword).send_keys("Gmail Signin")

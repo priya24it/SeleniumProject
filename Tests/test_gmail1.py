@@ -10,7 +10,7 @@ from UtilityClass.utilityclass import commonclass
 from keyboard import press
 import keyboard
 
-
+@pytest.mark.skip
 @pytest.mark.usefixtures("setup")
 @pytest.mark.usefixtures("passdata")
 class Test_SampleGmail(commonclass):

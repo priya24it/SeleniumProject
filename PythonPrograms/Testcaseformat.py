@@ -1,60 +1,22 @@
 import pandas as pd
 
+sheetname = "map.contact_main"
 dataframe = pd.read_excel("testcase.xlsx")
 dataframe = pd.DataFrame(dataframe)
-#print(dataframe)
-#str = (dataframe.apply(lambda row:str(row["a"])+""+str(row["b"])+""+str(row["c"])+""+str(row["d"])+""+row["e"]+""+str(row["f"])+""+str(row["g"])+""+str(row["h"])+""+str(row["i"])+""+str(row["j"]) , axis = 1))
-excelwriter = pd.ExcelWriter("sample.xlsx")
 
-dataframe2 = pd.DataFrame()
-dataframe2["Req"] = "1"
-dataframe2["Transformation"] = "TC_duplicateCheck_" + dataframe["e"]
-dataframe2["Description"] = "TC_Verify whether the transformation logic has applied as per the requirement document for the_ " + dataframe["e"]
-dataframe2["Step#"] = "1"
-dataframe2["Step Description"] = str
-dataframe2["Expected Result"] = "Data should be loaded as per the logic"
-dataframe2["Actual Result"] = dataframe["e"] + "  value should match between the source and Target logic"
-dataframe2["Pass/Fail"] = ""
-dataframe2["Comments"] = ""
-dataframe2["Created By"] = ""
-dataframe2["Executed By"] = ""
-dataframe2["Created Date"] = ""
-dataframe2.to_excel(excelwriter,sheet_name="s2")
-
-str = (dataframe.apply(lambda row:str(row["a"])+" "+str(row["b"])+" "+str(row["c"])+" "+str(row["d"])+" "+str(row["e"])+" "+str(row["f"])+""+str(row["g"]) , axis = 1))
-print(len(str))
-dataframe["combined"] = str
-dataframe["Req"] = "1"
-dataframe["Transformation"] = "TC_TransformationCheck_" + dataframe["e"]
-dataframe["Description"] = "TC_Verify whether the transformation logic has applied as per the requirement document for the_ " + dataframe["e"]
-dataframe["Step#"] = "1"
-dataframe["Step Description"] = str
-dataframe["Expected Result"] = "Data should be loaded as per the logic"
-dataframe["Actual Result"] = dataframe["e"] + "  value should match between the source and Target logic"
-dataframe["Pass/Fail"] = ""
-dataframe["Comments"] = ""
-dataframe["Created By"] = ""
-dataframe["Executed By"] = ""
-dataframe["Created Date"] = ""
-
-print(dataframe["combined"])
-
-
-dataframe1 = pd.DataFrame()
-dataframe1["Req"] = dataframe["Req"]
-dataframe1["Test Case#"] = dataframe["Transformation"]
-dataframe1["Description"] = dataframe["Description"]
-dataframe1["Step#"]  =dataframe["Step#"]
-dataframe1["Step Description"] = dataframe["Step Description"]
-dataframe1["Expected Result"]  =dataframe["Expected Result"]
-dataframe1["Actual Result"] =dataframe["Actual Result"]
-dataframe1["Pass/Fail"] =dataframe["Pass/Fail"]
-dataframe1["Comments"] =dataframe["Comments"]
-dataframe1["Created By"] =dataframe["Created By"]
-dataframe1["Executed By"] =dataframe["Executed By"]
-dataframe1["Created Date"] =dataframe["Created Date"]
-
-#dataframe1.to_excel("sample.xlsx")
-dataframe1.to_excel(excelwriter,sheet_name="s1")
-excelwriter.save()
-
+Dict1 = {}
+Dict1["Req"] = ['1']
+Dict1["Transformation"] = ['TC_countvalidation_map.Contact_main']
+Dict1["Description"] = ['TC_Verification of count between the source and target table']
+Dict1["Step#"] = ['1']
+Dict1["Step Description"] = ['hh']
+Dict1["Expected Result"] = ['select mdmid,count(*) from map.contact_main where 1=1 group by mdmid having count(*) > 1 ']
+Dict1["Actual Result"] = ['Duplicates should not exists on the latest processID. We should have all unique records ']
+Dict1["Pass/Fail"] = ['']
+Dict1["Comments"] = ['']
+Dict1["Created By"] = ['']
+Dict1["Executed By"] = ['']
+Dict1["Created Date"] =['']
+df1 = pd.DataFrame(Dict1)
+print(df1)
+df1.to_excel("sample.xlsx")
