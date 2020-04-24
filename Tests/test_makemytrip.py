@@ -3,6 +3,7 @@ import pytest
 import time
 
 @pytest.mark.usefixtures("setup")
+@pytest.mark.skip
 class Testmakymytrip:
     def test_trip(self):
         self.driver.find_element_by_xpath("//span[contains(text(),'From')]").click()

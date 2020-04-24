@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-l1 = ['map.contact_main','Sheet1','map.contact_main_multiple','map.contact_phone']
+l1 = ['map.contact_main','rel','map.contact_main_multiple','map.contact_phone','job','map.contact_board']
 writer = pd.ExcelWriter("sample.xlsx")
 sheetname = "map.contact_main"
 dataframe = pd.read_excel("testcase.xlsx")
