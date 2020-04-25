@@ -10,7 +10,7 @@ def setup(request):
     global driver
    # browser_name=request.config.getoption("browser_name")
     if "chrome" == "chrome":
-        driver = webdriver.Chrome(executable_path="C:\\Users\\kbharathi\\Desktop\\MDM\\WebApp\\chromedriver\\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path="chromedriver\\chromedriver.exe")
         #driver = webdriver.Chrome(executable_path="",chrome_options="",desired_capabilities="")
         #driver.find_elements_by_xpath("a")
 
