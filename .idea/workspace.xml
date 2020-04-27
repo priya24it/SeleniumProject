@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="298876df-f9df-455c-a618-591b45cab548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UtilityClass/utilityclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/UtilityClass/utilityclass.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
         <counts>
           <entry key="html" value="4" />
           <entry key="json" value="6" />
-          <entry key="log" value="8" />
+          <entry key="log" value="9" />
           <entry key="py" value="112" />
           <entry key="xml" value="1" />
         </counts>
@@ -43,7 +42,7 @@
         <counts>
           <entry key="HTML" value="4" />
           <entry key="JSON" value="6" />
-          <entry key="Log" value="8" />
+          <entry key="Log" value="9" />
           <entry key="Python" value="112" />
           <entry key="XML" value="1" />
         </counts>
@@ -51,15 +50,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="18" />
-          <entry key="log" value="12" />
-          <entry key="py" value="19764" />
+          <entry key="log" value="15" />
+          <entry key="py" value="19765" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="18" />
-          <entry key="Log" value="12" />
-          <entry key="Python" value="19764" />
+          <entry key="Log" value="15" />
+          <entry key="Python" value="19765" />
         </counts>
       </usages-collector>
     </session>
@@ -69,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonPrograms/sam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+            <state relative-caret-position="478">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -102,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UtilityClass/utilityclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -178,7 +177,6 @@
         <option value="$PROJECT_DIR$/Tests/TestData.py" />
         <option value="$PROJECT_DIR$/Tests/TestDataLogin.py" />
         <option value="$PROJECT_DIR$/Tests/TestDataLogin1/TestData.py" />
-        <option value="$PROJECT_DIR$/UtilityClass/utilityclass.py" />
         <option value="$PROJECT_DIR$/Tests/test_makemytrip.py" />
         <option value="$PROJECT_DIR$/Tests/test_fixtures.py" />
         <option value="$PROJECT_DIR$/PythonPrograms/t2.py" />
@@ -194,6 +192,7 @@
         <option value="$PROJECT_DIR$/PythonPrograms/sam.py" />
         <option value="$PROJECT_DIR$/Tests/conftest.py" />
         <option value="$PROJECT_DIR$/Tests/test_Webtable.py" />
+        <option value="$PROJECT_DIR$/UtilityClass/utilityclass.py" />
       </list>
     </option>
   </component>
@@ -224,23 +223,7 @@
             <path>
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonPrograms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
               <item name="Testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="TestDataLogin1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
@@ -433,11 +416,11 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.24085851" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.24085851" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.23926868" />
       <window_info id="Favorites" order="2" sideWeight="0.5026643" side_tool="true" weight="0.23926868" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.53641206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -750,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UtilityClass/utilityclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_Webtable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -782,8 +755,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonPrograms/sam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        <state relative-caret-position="478">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logfile.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="170">
+          <caret line="10" column="77" selection-end-line="1377" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UtilityClass/utilityclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
