@@ -2,16 +2,20 @@ import pytest
 from selenium import webdriver
 import pandas as pd
 
+from UtilityClass.utilityclass import commonclass
+
+
 @pytest.mark.usefixtures("setup")
 #@pytest.mark.skip
-class Test_Webtable:
+class Test_Webtable(commonclass):
     def test_accesswebtable(self):
+        log = self.getLogger()
        # sourceDF = pd.read_excel('merge.xlsx', sheet_name='sourceINSGrid')
-        print('Open homepage..')
+        log.info('Open homepage..')
         rows = self.driver.find_elements_by_xpath("//table[@class ='dataTable']//tbody//tr")
-        print("Number of rows" + str(len(rows)))
+        log.info("Number of rows" + str(len(rows)))
         columns = self.driver.find_elements_by_xpath("//table[@class ='dataTable']//tbody//tr[1]//td")
-        print("Number of rows" + str(len(columns)))
+        log.info("Number of rows" + str(len(columns)))
         #rows = self.driver.find_element_by_xpath("//table[@class ='dataTable']//tbody//tr/td[1][1]").text
         #print(rows)
         Dict = {}
@@ -25,16 +29,16 @@ class Test_Webtable:
             for row in range(1,len(rows)+1):
                 rowvalue = self.driver.find_element_by_xpath("//table[@class ='dataTable']//tbody//tr["+str(row)+"]//td["+str(column)+"]")
                 l1.append(rowvalue.text)
-            print(l1)
+            log.info(l1)
            # Dict[rowvalue] = l1
             Dict[columnvalue.text] =  l1
 
         #print(Dict)
         df =pd.DataFrame(Dict)
-        print(df.columns)
-        print(df.describe())
+        log.info(df.columns)
+        log.info(df.describe())
         df = df[df['Current Price (Rs)'] == (df['Current Price (Rs)'].max())]
-        print(df)
+        log.info(df)
         df.to_excel("webtable.xlsx")
 
 
