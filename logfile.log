@@ -1373,3 +1373,5 @@
 2020-04-06 17:57:49,763 :INFO : test_smoke1 :passdictdata
 2020-04-06 17:57:49,774 :INFO : test_smoke1 :passdictdata
 2020-04-06 17:57:49,823 :INFO : test_smoke1 :('TimeosfIndal', 'TimeosfIndal', 'TimeosfIndal18India', 'DeccanChornical@12345', 'DeccanChornical@12345'), ('DeccanChorinical ', 'DeccanChorinical ', 'DeccanChorinical18India', 'DeccanChornical@12345', 'DeccanChornical@12345')
+2020-04-27 16:01:10,152 :INFO : test_accesswebtable :Open homepage..
+2020-04-27 16:01:10,362 :INFO : test_accesswebtable :Number of rows26
