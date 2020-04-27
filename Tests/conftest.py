@@ -5,11 +5,18 @@ from selenium import webdriver
 from UtilityClass.utilityclass import commonclass
 
 
+driver = None
+
+def pytest_addoption(parser):
+    parser.addoption(
+        "--browser_name", action="store", default="chrome"
+    )
+
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
-   # browser_name=request.config.getoption("browser_name")
-    if "chrome" == "chrome":
+    browser_name=request.config.getoption("browser_name")
+    if browser_name == "chrome":
         driver = webdriver.Chrome(executable_path="chromedriver\\chromedriver.exe")
         #driver = webdriver.Chrome(executable_path="",chrome_options="",desired_capabilities="")
         #driver.find_elements_by_xpath("a")
