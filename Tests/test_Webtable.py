@@ -35,7 +35,8 @@ class Test_Webtable:
         df =pd.DataFrame(Dict)
         print(df.columns)
         print(df.describe())
-        print(df['Current Price (Rs)'].describe())
+        df = df[df['Current Price (Rs)'] == (df['Current Price (Rs)'].max())]
+        print(df)
         df.to_excel("webtable.xlsx")
 
 

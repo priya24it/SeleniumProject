@@ -35,7 +35,6 @@ def setup(request):
 
     #driver.get("https://github.com/login")
     driver.maximize_window()
-
     request.cls.driver = driver
     yield
     driver.close()
