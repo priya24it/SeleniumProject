@@ -29,8 +29,6 @@ class Test_Webtable:
            # Dict[rowvalue] = l1
             Dict[columnvalue.text] =  l1
 
-        self.driver.close()
-
         #print(Dict)
         df =pd.DataFrame(Dict)
         print(df.columns)

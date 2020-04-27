@@ -1,15 +1,15 @@
 import pandas as pd
 
 #l1 = ['map.contact_main','rel','map.contact_main_multiple','map.contact_phone','job','map.contact_board']
-l1 = ['map.contact_board']
+l1 = ['map.contact_education']
 writer = pd.ExcelWriter("sample.xlsx")
-sheetname = "map.contact_board"
-dataframe = pd.read_excel("testcase.xlsx",sheet_name ="map.contact_board")
+sheetname = "map.contact_education"
+dataframe = pd.read_excel("testcase.xlsx",sheet_name ="map.contact_education")
 dataframe = pd.DataFrame(dataframe)
 
 
 for i in range(0,len(l1)):
-    dataframe = pd.read_excel("testcase.xlsx",sheet_name="map.contact_board")
+    dataframe = pd.read_excel("testcase.xlsx",sheet_name="map.contact_education")
     dataframe = pd.DataFrame(dataframe)
     print(dataframe.dtypes)
    # print(dataframe.head(4))
@@ -90,9 +90,9 @@ for i in range(0,len(l1)):
     dataframe2 = pd.DataFrame()
     #str = (dataframe.apply(lambda row:row["i"]+"\n"+row["a"]+" "+row["b"]+" " +row["c"]+" "+row["k"]+" "+row["l"]+" \n"+row["j"] + "  \n "+row["d"]+"  "+row["e"]+" "+row["f"]+" \n "+row["g"]+" \n "+row["h"] , axis = 1))
 
-    str = (dataframe.apply(lambda row: row["aa"]+"\n"+row["a"]+" "+row["aa1"]+" \n "+row["d"]+"  "+row["e"]+" "+row["f"]+" \n "+row["g"]+" \n"+row["h"], axis = 1))
+    str = (dataframe.apply(lambda row: row["a"]+"\n"+row["b"]+" "+row["e"]+" \n "+row["c"]+"  "+row["d"]+" "+row["f"]+" \n "+row["g"], axis = 1))
 
-    #str = (dataframe.apply(lambda row: row["aa"] +  row["a"] , axis=1))
+    #str = (dataframe.apply(lambda row: row["a"] +"\n"+ row["b"] , axis=1))
     print(str)
 
     dataframe2["Req"] = "1"

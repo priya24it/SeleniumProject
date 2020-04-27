@@ -18,23 +18,15 @@ def setup(request):
     browser_name=request.config.getoption("browser_name")
     if browser_name == "chrome":
         driver = webdriver.Chrome(executable_path="chromedriver\\chromedriver.exe")
-        #driver = webdriver.Chrome(executable_path="",chrome_options="",desired_capabilities="")
-        #driver.find_elements_by_xpath("a")
-
-
-    elif "chrome" == "firefox":
+    elif browser_name == "firefox":
         driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
-    elif "chrome" == "IE":
+    elif browser_name == "IE":
         print("IE driver")
     #driver.get("https://www.google.com")
     #driver.get("https://www.google.com")
     #driver.get("https://www.worldometers.info/geography/flags-of-the-world")
     #driver.get("https://www.guru99.com/handling-dynamic-selenium-webdriver.html")
     driver.get("http://demo.guru99.com/test/web-table-element.php")
-    #driver.get("https://www.makemytrip.com/")
-
-    #driver.get("https://github.com/login")
-    driver.maximize_window()
     request.cls.driver = driver
     yield
     driver.close()

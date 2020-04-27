@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 27-Apr-2020 at 12:23:16 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.0</p>
+    <p>Report generated on 27-Apr-2020 at 14:55:42 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.8.1</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 21.23 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">20 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 37.42 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">21 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,38 +271,6 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Tests/test_DDT.py::TestDDT::test_ddt[passexceldata0]</td>
-          <td class="col-duration">7.02</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Tests.test_DDT.TestDDT object at 0x0B07D340&gt;, passexceldata = {&#x27;password&#x27;: &#x27;Abord@24&#x27;, &#x27;username&#x27;: &#x27;Priya24it&#x27;}<br/><br/>    def test_ddt(self,passexceldata):<br/>        sourceDF = pd.read_excel(&#x27;Tests//DDT.xlsx&#x27;)<br/>        sourceDF = pd.DataFrame(sourceDF)<br/>    <br/>        print(self.driver.current_url)<br/>        print(passexceldata[&#x27;username&#x27;])<br/>        print(passexceldata[&#x27;password&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@id=&#x27;login_field&#x27;]&quot;).send_keys(passexceldata[&#x27;username&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@id=&#x27;password&#x27;]&quot;).send_keys(passexceldata[&#x27;password&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@name=&#x27;commit&#x27;]&quot;).click()<br/>        title = self.driver.title<br/>        print(&quot;Title = &quot; + title)<br/>        time.sleep(3)<br/>        if title  == &quot;GitHub&quot;:<br/>            sourceDF[&quot;result&quot;] = &#x27;pass&#x27;<br/>            assert &quot;GitHub&quot; in title, &quot;passed&quot;<br/>            self.driver.find_element_by_xpath(&quot;//details[@class =&#x27;details-overlay details-reset js-feature-preview-indicator-container&#x27;]//summary[@ class =&#x27;Header-link&#x27;]&quot;).click()<br/>            self.driver.find_element_by_xpath(&quot;// button[@ class =&#x27;dropdown-item dropdown-signout&#x27;]&quot;).click()<br/>            self.driver.get(&quot;https://github.com/login&quot;)<br/>        else:<br/>            sourceDF[&quot;result&quot;] = &#x27;fail&#x27;<br/>            self.driver.get(&quot;https://github.com/login&quot;)<br/>            print(sourceDF)<br/>            sourceDF.to_excel(&quot;DDT.xlsx&quot;)<br/>&gt;           assert &quot;GitHub1&quot; in title, &quot;failed&quot;<br/><span class="error">E           AssertionError: failed</span><br/><span class="error">E           assert &#x27;GitHub1&#x27; in &#x27;GitHub · Where software is built&#x27;</span><br/><br/>Tests\test_DDT.py:35: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>https://github.com/login
-Priya24it
-Abord@24
-Title = GitHub · Where software is built
-     username   password result
-0   Priya24it   Abord@24   fail
-1  Priya24it1  Priya24it   fail
-<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">Tests/test_DDT.py::TestDDT::test_ddt[passexceldata1]</td>
-          <td class="col-duration">4.41</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Tests.test_DDT.TestDDT object at 0x0B91A2B0&gt;, passexceldata = {&#x27;password&#x27;: &#x27;Abord@24&#x27;, &#x27;username&#x27;: &#x27;Priya24it34&#x27;}<br/><br/>    def test_ddt(self,passexceldata):<br/>        sourceDF = pd.read_excel(&#x27;Tests//DDT.xlsx&#x27;)<br/>        sourceDF = pd.DataFrame(sourceDF)<br/>    <br/>        print(self.driver.current_url)<br/>        print(passexceldata[&#x27;username&#x27;])<br/>        print(passexceldata[&#x27;password&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@id=&#x27;login_field&#x27;]&quot;).send_keys(passexceldata[&#x27;username&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@id=&#x27;password&#x27;]&quot;).send_keys(passexceldata[&#x27;password&#x27;])<br/>        self.driver.find_element_by_xpath(&quot;//input[@name=&#x27;commit&#x27;]&quot;).click()<br/>        title = self.driver.title<br/>        print(&quot;Title = &quot; + title)<br/>        time.sleep(3)<br/>        if title  == &quot;GitHub&quot;:<br/>            sourceDF[&quot;result&quot;] = &#x27;pass&#x27;<br/>            assert &quot;GitHub&quot; in title, &quot;passed&quot;<br/>            self.driver.find_element_by_xpath(&quot;//details[@class =&#x27;details-overlay details-reset js-feature-preview-indicator-container&#x27;]//summary[@ class =&#x27;Header-link&#x27;]&quot;).click()<br/>            self.driver.find_element_by_xpath(&quot;// button[@ class =&#x27;dropdown-item dropdown-signout&#x27;]&quot;).click()<br/>            self.driver.get(&quot;https://github.com/login&quot;)<br/>        else:<br/>            sourceDF[&quot;result&quot;] = &#x27;fail&#x27;<br/>            self.driver.get(&quot;https://github.com/login&quot;)<br/>            print(sourceDF)<br/>            sourceDF.to_excel(&quot;DDT.xlsx&quot;)<br/>&gt;           assert &quot;GitHub1&quot; in title, &quot;failed&quot;<br/><span class="error">E           AssertionError: failed</span><br/><span class="error">E           assert &#x27;GitHub1&#x27; in &#x27;Sign in to GitHub · GitHub&#x27;</span><br/><br/>Tests\test_DDT.py:35: AssertionError<br/> ------------------------------Captured stdout call------------------------------ <br/>https://github.com/login
-Priya24it34
-Abord@24
-Title = Sign in to GitHub · GitHub
-     username   password result
-0   Priya24it   Abord@24   fail
-1  Priya24it1  Priya24it   fail
-<br/></div></td></tr></tbody>
       <tbody class="skipped results-table-row">
         <tr>
           <td class="col-result">Skipped</td>
@@ -315,12 +283,21 @@ Title = Sign in to GitHub · GitHub
       <tbody class="skipped results-table-row">
         <tr>
           <td class="col-result">Skipped</td>
-          <td class="col-name">Tests/test_Webtable.py::Test_Webtable::test_accesswebtable::setup</td>
+          <td class="col-name">Tests/test_DDT.py::TestDDT::test_ddt[passexceldata0]::setup</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">(&#x27;Tests\\test_Webtable.py&#x27;, 8, &#x27;Skipped: unconditional skip&#x27;)<br/></div></td></tr></tbody>
+            <div class="log">(&#x27;Tests\\test_DDT.py&#x27;, 11, &#x27;Skipped: unconditional skip&#x27;)<br/></div></td></tr></tbody>
+      <tbody class="skipped results-table-row">
+        <tr>
+          <td class="col-result">Skipped</td>
+          <td class="col-name">Tests/test_DDT.py::TestDDT::test_ddt[passexceldata1]::setup</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">(&#x27;Tests\\test_DDT.py&#x27;, 11, &#x27;Skipped: unconditional skip&#x27;)<br/></div></td></tr></tbody>
       <tbody class="skipped results-table-row">
         <tr>
           <td class="col-result">Skipped</td>
@@ -482,4 +459,31 @@ Title = Sign in to GitHub · GitHub
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">(&#x27;UtilityClass\\utilityclass.py&#x27;, 33, &#x27;Skipped: unconditional skip&#x27;)<br/></div></td></tr></tbody></table></body></html>
+            <div class="log">(&#x27;UtilityClass\\utilityclass.py&#x27;, 33, &#x27;Skipped: unconditional skip&#x27;)<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Tests/test_Webtable.py::Test_Webtable::test_accesswebtable</td>
+          <td class="col-duration">14.79</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Open homepage..
+Number of rows26
+Number of rows5
+[&#x27;Shriram Trans.Fi&#x27;, &#x27;Power Finance Co&#x27;, &#x27;Jain Irrigation&#x27;, &#x27;IL&amp;FS Transportation&#x27;, &#x27;BEML Ltd.&#x27;, &#x27;Cox &amp; Kings L&#x27;, &#x27;Deepak Fertilisers&#x27;, &#x27;Dewan Housing&#x27;, &#x27;Jain Irrigation&#x27;, &#x27;Strides Pharma Scien&#x27;, &#x27;Ambuja Cements Ltd.&#x27;, &#x27;Hero MotoCorp&#x27;, &#x27;Quess Corp&#x27;, &#x27;Dewan Housing&#x27;, &#x27;YES Bank Ltd.&#x27;, &#x27;UCO Bank&#x27;, &#x27;Shriram Trans.Fi&#x27;, &#x27;Cera Sanitaryware L&#x27;, &#x27;Capital First&#x27;, &#x27;Jagran Prakashan&#x27;, &#x27;Ambuja Cements Ltd.&#x27;, &#x27;Bajaj Corp Ltd.&#x27;, &#x27;Ujjivan Financial&#x27;, &#x27;Kansai Nerolac Paint&#x27;, &#x27;Bharat Petroleum&#x27;, &#x27;Equitas Holdings Ltd&#x27;]
+[&#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;, &#x27;A&#x27;]
+[&#x27;906&#x27;, &#x27;870.2&#x27;, &#x27;825.5&#x27;, &#x27;231&#x27;, &#x27;76.5&#x27;, &#x27;744.9&#x27;, &#x27;917.4&#x27;, &#x27;49.9&#x27;, &#x27;170.8&#x27;, &#x27;975&#x27;, &#x27;917.5&#x27;, &#x27;359.9&#x27;, &#x27;600.2&#x27;, &#x27;704.8&#x27;, &#x27;721.8&#x27;, &#x27;906.3&#x27;, &#x27;418.8&#x27;, &#x27;510.4&#x27;, &#x27;482.6&#x27;, &#x27;710.9&#x27;, &#x27;574.3&#x27;, &#x27;309.8&#x27;, &#x27;883.2&#x27;, &#x27;199.6&#x27;, &#x27;220.4&#x27;, &#x27;643.9&#x27;]
+[&#x27;212.3&#x27;, &#x27;672.6&#x27;, &#x27;164.2&#x27;, &#x27;272&#x27;, &#x27;768.8&#x27;, &#x27;934.8&#x27;, &#x27;581&#x27;, &#x27;947.3&#x27;, &#x27;118.3&#x27;, &#x27;124.5&#x27;, &#x27;67.3&#x27;, &#x27;799.9&#x27;, &#x27;154.7&#x27;, &#x27;488.8&#x27;, &#x27;377&#x27;, &#x27;422.2&#x27;, &#x27;873.2&#x27;, &#x27;884.9&#x27;, &#x27;384.5&#x27;, &#x27;984.2&#x27;, &#x27;212.6&#x27;, &#x27;412.2&#x27;, &#x27;173.2&#x27;, &#x27;653.2&#x27;, &#x27;874.4&#x27;, &#x27;65.8&#x27;]
+[&#x27;+ 8&#x27;, &#x27;+ 7.9&#x27;, &#x27;+ 2.7&#x27;, &#x27;+ 10&#x27;, &#x27;+ 8.7&#x27;, &#x27;+ 4.8&#x27;, &#x27;+ 7.7&#x27;, &#x27;+ 6.2&#x27;, &#x27;+ 7.8&#x27;, &#x27;+ 4&#x27;, &#x27;+ 6&#x27;, &#x27;+ 3.5&#x27;, &#x27;+ 7&#x27;, &#x27;+ 6.5&#x27;, &#x27;+ 5.9&#x27;, &#x27;+ 6&#x27;, &#x27;+ 7.9&#x27;, &#x27;+ 9.4&#x27;, &#x27;+ 4.4&#x27;, &#x27;+ 7.2&#x27;, &#x27;+ 9.3&#x27;, &#x27;+ 2.3&#x27;, &#x27;+ 9.1&#x27;, &#x27;+ 9.7&#x27;, &#x27;+ 8.6&#x27;, &#x27;+ 7.6&#x27;]
+Index([&#x27;Company&#x27;, &#x27;Group&#x27;, &#x27;Prev Close (Rs)&#x27;, &#x27;Current Price (Rs)&#x27;,
+       &#x27;% Change&#x27;],
+      dtype=&#x27;object&#x27;)
+                    Company Group Prev Close (Rs) Current Price (Rs) % Change
+count                    26    26              26                 26       26
+unique                   22     1              26                 26       24
+top     Ambuja Cements Ltd.     A           482.6              154.7    + 7.9
+freq                      2    26               1                  1        2
+             Company Group Prev Close (Rs) Current Price (Rs) % Change
+19  Jagran Prakashan     A           710.9              984.2    + 7.2
+<br/></div></td></tr></tbody></table></body></html>
