@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298876df-f9df-455c-a618-591b45cab548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PythonPrograms/sam.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrograms/sam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonPrograms/sample.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrograms/sample.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonPrograms/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/PythonPrograms/testcase.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_DDT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_DDT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_Webtable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_Webtable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
           <entry key="html" value="4" />
           <entry key="json" value="6" />
           <entry key="log" value="8" />
-          <entry key="py" value="106" />
+          <entry key="py" value="108" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -45,7 +44,7 @@
           <entry key="HTML" value="4" />
           <entry key="JSON" value="6" />
           <entry key="Log" value="8" />
-          <entry key="Python" value="106" />
+          <entry key="Python" value="108" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -53,14 +52,14 @@
         <counts>
           <entry key="json" value="18" />
           <entry key="log" value="12" />
-          <entry key="py" value="19572" />
+          <entry key="py" value="19626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="18" />
           <entry key="Log" value="12" />
-          <entry key="Python" value="19572" />
+          <entry key="Python" value="19626" />
         </counts>
       </usages-collector>
     </session>
@@ -75,18 +74,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPrograms/APITesting1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,10 +105,10 @@
         <entry file="file://$PROJECT_DIR$/Tests/test_DDT.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1587817407833" expanded="true" signature="197:202" ph="..." />
+                <marker date="1587971695104" expanded="true" signature="196:201" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,21 +127,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonPrograms/PY1.py">
+        <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="291">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
+        <entry file="file://$PROJECT_DIR$/Tests/test_Webtable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="240">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/test_gmail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="93" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1587102875214" expanded="true" signature="4110:4129" ph="..." />
               </folding>
             </state>
           </provider>
@@ -232,7 +235,6 @@
         <option value="$PROJECT_DIR$/Tests/test_gmail.py" />
         <option value="$PROJECT_DIR$/Tests/test_gmail1.py" />
         <option value="$PROJECT_DIR$/Tests/test_pratice.py" />
-        <option value="$PROJECT_DIR$/Tests/test_Webtable.py" />
         <option value="$PROJECT_DIR$/PageObjects/GoogleHomePage.py" />
         <option value="$PROJECT_DIR$/Tests/TestData.py" />
         <option value="$PROJECT_DIR$/Tests/TestDataLogin.py" />
@@ -248,14 +250,15 @@
         <option value="$PROJECT_DIR$/PythonPrograms/APITesting1.py" />
         <option value="$PROJECT_DIR$/PythonPrograms/APIFinal.py" />
         <option value="$PROJECT_DIR$/PythonPrograms/test.py" />
-        <option value="$PROJECT_DIR$/Tests/test_DDT.py" />
         <option value="$PROJECT_DIR$/PythonPrograms/test_scroll.py" />
         <option value="$PROJECT_DIR$/PythonPrograms/sam.py" />
+        <option value="$PROJECT_DIR$/Tests/test_DDT.py" />
         <option value="$PROJECT_DIR$/Tests/conftest.py" />
+        <option value="$PROJECT_DIR$/Tests/test_Webtable.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="3" />
     <option name="y" value="33" />
     <option name="width" value="1917" />
@@ -488,7 +491,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973357" visible="true" weight="0.24085851" />
@@ -634,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_gmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_gmail1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -667,16 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_Webtable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,17 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_DDT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1587817407833" expanded="true" signature="197:202" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonPrograms/test_scroll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -828,10 +803,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_gmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="93" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1587102875214" expanded="true" signature="4110:4129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_DDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1587971695104" expanded="true" signature="196:201" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="291">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_Webtable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

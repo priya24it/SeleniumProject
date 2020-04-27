@@ -30,10 +30,10 @@ def setup(request):
     #driver.get("https://www.google.com")
     #driver.get("https://www.worldometers.info/geography/flags-of-the-world")
     #driver.get("https://www.guru99.com/handling-dynamic-selenium-webdriver.html")
-    #driver.get("http://demo.guru99.com/test/web-table-element.php")
+    driver.get("http://demo.guru99.com/test/web-table-element.php")
     #driver.get("https://www.makemytrip.com/")
 
-    driver.get("https://github.com/login")
+    #driver.get("https://github.com/login")
     driver.maximize_window()
 
     request.cls.driver = driver

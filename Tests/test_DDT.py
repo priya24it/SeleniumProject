@@ -6,7 +6,7 @@ from Tests.conftest import passdictdata
 
 @pytest.mark.usefixtures("setup")
 @pytest.mark.usefixtures("passexceldata")
-#@pytest.mark.skip
+@pytest.mark.skip
 class TestDDT:
     def test_ddt(self,passexceldata):
         sourceDF = pd.read_excel('Tests//DDT.xlsx')

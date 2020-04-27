@@ -3,7 +3,7 @@ from selenium import webdriver
 import pandas as pd
 
 @pytest.mark.usefixtures("setup")
-@pytest.mark.skip
+#@pytest.mark.skip
 class Test_Webtable:
     def test_accesswebtable(self):
        # sourceDF = pd.read_excel('merge.xlsx', sheet_name='sourceINSGrid')
@@ -33,7 +33,9 @@ class Test_Webtable:
 
         #print(Dict)
         df =pd.DataFrame(Dict)
-        print(df)
+        print(df.columns)
+        print(df.describe())
+        print(df['Current Price (Rs)'].describe())
         df.to_excel("webtable.xlsx")
 
 
