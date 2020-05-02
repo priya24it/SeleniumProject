@@ -26,7 +26,9 @@ def setup(request):
     #driver.get("https://www.google.com")
     #driver.get("https://www.worldometers.info/geography/flags-of-the-world")
     #driver.get("https://www.guru99.com/handling-dynamic-selenium-webdriver.html")
-    driver.get("http://demo.guru99.com/test/web-table-element.php")
+    #driver.get("http://demo.guru99.com/test/web-table-element.php")
+    driver.get("https://www.softwaretestingmaterial.com/")
+    #driver.find_elements_by_tag_name()
     request.cls.driver = driver
     yield
     driver.close()

@@ -6,7 +6,7 @@ from UtilityClass.utilityclass import commonclass
 
 
 @pytest.mark.usefixtures("setup")
-#@pytest.mark.skip
+@pytest.mark.skip
 class Test_Webtable(commonclass):
     def test_accesswebtable(self):
         log = self.getLogger()
